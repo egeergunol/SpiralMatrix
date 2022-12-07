@@ -72,9 +72,9 @@ public class TwoDArraySpiralTraverserTest {
      * Tests traversing starting from the bottom right element moving to right as the direction
      */
     @Test
-    public void should_traverse_StartingFromBottomRight_WithInitialDirectionAsRight() {
+    public void should_traverse_StartingFromBottomRight_WithInitialDirectionAsLeft() {
         assertEquals("[16, 15, 14, 13, 9, 5, 1, 2, 3, 4, 8, 12, 11, 10, 6, 7]",
-                traverser.spiralTraverseTwoDArray(twoDArray, StartPoint.BOTTOM_RIGHT_CORNER, Direction.RIGHT).toString());
+                traverser.spiralTraverseTwoDArray(twoDArray, StartPoint.BOTTOM_RIGHT_CORNER, Direction.LEFT).toString());
     }
 
     /**
