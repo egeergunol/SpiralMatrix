@@ -69,7 +69,7 @@ public class TwoDArraySpiralTraverserTest {
     }
 
     /**
-     * Tests traversing starting from the bottom right element moving to right as the direction
+     * Tests traversing starting from the bottom right element moving to left as the direction
      */
     @Test
     public void should_traverse_StartingFromBottomRight_WithInitialDirectionAsLeft() {
